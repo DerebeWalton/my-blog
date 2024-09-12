@@ -13,13 +13,8 @@ header_image: /assets/img/headerimg.jpg ## change your header image if you want
 ## Add your social media user names.  Github is required, the rest are optional
 social:
     github:  DerebeWalton
-    twitter: 
-    facebook: 
-    email: 
-    linkedin: 
-    youtube: 
-    tumblr: 
-    website: 
+    email: gimotacs@gmail.com
+    linkedin: https://www.linkedin.com/in/derek-walton-53a41463/
 
 
 
