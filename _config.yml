@@ -1,18 +1,18 @@
 ## You should change each of the following fields
 ## to customize your blog
 
-title: Stat 386 Blog
-description: "This description of the blog will appear on the 'About' page." 
-author: Your name
-author_description: "This description of who you are will appear on the 'About' page." 
+title: Data Science, Technology, and More
+description: "A site where I explore topics within technology and share my experience and ideas." 
+author: Derek Walton
+author_description: "A simple man in Statistics with a Data Science emphasis working to improve the world one step at a time." 
 
-url: https://esnt.github.io ## change this to https://yourusername.github.io
-baseurl: /another-stat386-theme ## change this to the name of your blog repository
+url: https://DerebeWalton.github.io ## change this to https://yourusername.github.io
+baseurl: /my-blog ## change this to the name of your blog repository
 header_image: /assets/img/headerimg.jpg ## change your header image if you want
 
 ## Add your social media user names.  Github is required, the rest are optional
 social:
-    github:  ## required
+    github:  DerebeWalton
     twitter: 
     facebook: 
     email: 
