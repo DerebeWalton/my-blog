@@ -65,10 +65,11 @@ You should go to the [official website](https://ubuntu.com/download/desktop) and
 ### Make a Bootable Drive
 The next step is using the ISO and making the USB flash drive into a bootable USB drive. To do so, you will need to use a program that does it for you. Canonical, the company behind Ubuntu, recommends [balenaEtcher](https://etcher.balena.io/)
 
-![balenaEtcher]({{site.url}}/{{site.baseurl}}/assets/img/balenaEtcher_home.png)
+![Figure]({{site.url}}/{{site.baseurl}}/assets/img/balenaEtcher home.png)
 
 ## Booting Up Into Ubuntu
 Now comes the fun part of actually playing with the bios and using Ubuntu.
+
 ### Boot from the USB
 Plug the now-bootable USB into the computer. 
 
@@ -76,12 +77,18 @@ Once done, you should look up how to access the boot menu for your computer. For
 
 Now that you know what button to press, power on the computer and press that button until you get to the bios and/or boot menu.
 
+![Figure]({{site.url}}/{{site.baseurl}}/assets/img/bios_home.jpg)
+
 Feel free to look around your bios, but I warn that it is usually best to leave things alone unless you know what you are doing. Find the option that sounds similar to "Book from USB" and select.
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/img/bios_boot.jpg)
 
 ### Install or try Ubuntu
 After some loading, you should see a few options, including one that says, "Try or Install Ubuntu." This is the one we want. 
 
 After it loads up, it should look more like an OS that you are used to and allow you to click around. You should go through the options, including connecting to the internet if you would like. 
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/img/try_ubuntu_web.png)
 
 Once you reach the "Install Ubuntu" or "Try Ubuntu" take your pick. I would recommend trying Ubuntu if you have no experience with it yet. You can explore and look around as though it were installed. In reality, Ubuntu is currently running off of the USB drive. When you are ready, click "Install Ubuntu 24.04.1 LTS" to continue with the installation process.
 
@@ -91,21 +98,35 @@ These options provide you with some customization as to how your Ubuntu OS will 
 ### Interactive Installation
 For most using not scaling Ubuntu installation, go with the **Interactive Installation**. The other option is more for commercial use or having more than a few computers.
 
+![Figure]({{site.url}}/{{site.baseurl}}/assets/img/interactive_installation.png)
+
 ### Extended Selection
 You can choose how much you have pre-installed in this next step. If you just want the basics, go with **Default Selection**. If you would like some additional apps, like some office tools similar to Word and Excel, go with **Extended Selection**. I found the Extended Selection was helpful for me as I didn’t want to go through the hassel of choosing a bunch myself.
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/img/ubuntu_extended.png)
 
 ### Proprietary Software
 It is recommended to check both boxes to allow for certain drivers, such as for Nvidia graphics cards, and media formats, such as MP4.
 
+![Figure]({{site.url}}/{{site.baseurl}}/assets/img/ubuntu_proprietary_soft.png)
+
 ### Erase or Dual Boot
 For many people, the next step would be simple as we choose whether to erase the disk and install Ubuntu (removing whatever OS you previously had, so likely Windows) or manually choose where to install it. Erasing the disk is easiest, but advanced users can have the option to dual-boot to have both Ubuntu and the original OS or manually partition the space. For my purposes so far, I was mostly replacing Windows 7 and a Windows 8 machines, so I did not care for keeping Windows.
 
+![Figure]({{site.url}}/{{site.baseurl}}/assets/img/ubuntu_erase_disk.png)
+
 ## Personalization
 This part simply allows you to customize a few details about your computer
+
 ### Create Login Credentials
 You get to choose what to name your computer! And a username and password for your local account.
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/img/ubuntu_create_login.png)
+
 ### Choose Time Zone
 I hope you know your time zone. Mine was MST.
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/img/timezones.png)
 
 ## Install!
 The time has come. Now we install Ubuntu onto the computer!
@@ -113,8 +134,12 @@ The time has come. Now we install Ubuntu onto the computer!
 ### Follow the prompts
 Go through the options and choose what you prefer for each of the prompts. Once you review your choices, you can hit the "Install" button. 
 
+![Figure]({{site.url}}/{{site.baseurl}}/assets/img/review_and_install.png)
+
 ### You installed Linux!
 Now that Ubuntu is officially installed, make sure to complete and updates that may be needed. And, of course, make it your own! One of the first things I did was make a picture of my wife and I as my background. The other was move the app dock from the side to the bottom of the screen. I am still not sure if I like it on the bottom or side more, though.
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/img/installed.png)
 
 ---
 ---
@@ -128,17 +153,22 @@ As with any complex system, things can go wrong. Computers are both complex and 
 ### Issues I faced
 Speaking of my issues, here is what I experienced and had to figure out:
 1. My very first installation of Ubuntu was on a old Sony Vaio laptop running Windows 8.1 gifted to me by my father-in-law. It became quite an adventure when the option to erase the old OS was never an option. The installation skipped that step and directly went to have me manually partition drives. I had no idea what the drives meant and, even with some research, I was not able to change any from that menu or even from within Windows. Eventually, what worked was I partitioned space from within the "Try Ubuntu" system. Then, it worked.
+
 2. Now the second was a doozy. Apparently, certain HP Pavilion laptops have issues booting from USB. So, I had to get a DVD that would fit an Ubuntu ISO on it and use that to boot and install. For your reference, it took a long time.
 
 ### Issues Canonical mentioned
 In the main guide provided by Ubuntu, they also have a few issues mentioned. For your convenience, here are the main ones I noticed:
+
 1. Intel RST (Rapid Storage Technology) is not supported by Ubuntu, so must be disabled.
+
 2. TPM-backed full disk encryption is a new, highly experimental feature. So it's probably best to wait and not mess with it just yet.
+
 3. If you select LVM or ZFS based encryption, you will have to make an encryption key. Don't lose your encryption key. It would be sad if you lost your data because you lost your key.
+
 4. Windows Bitlocker should be disabled if you are dual-booting your computer.
 
 ## Now What?
-Install it yourself if you have not already! You have the steps and, hopefully, the confidence. I believe in you!
+Install Ubuntu yourself if you have not already! You have the steps and, hopefully, the confidence. I believe in you!
 
 You can also try other distros, like Mint or Pop!_OS. Find the best fit for you, as there are plenty for every preference.
 
