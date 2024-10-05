@@ -79,7 +79,7 @@ Now that you know what button to press, power on the computer and press that but
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/bios_home.jpg)
 
-Feel free to look around your bios, but I warn that it is usually best to leave things alone unless you know what you are doing. Find the option that sounds similar to "Book from USB" and select.
+Feel free to look around your bios, but I warn that it is usually best to leave things alone unless you know what you are doing. Find the option that sounds similar to "Boot from USB" and select.
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/bios_boot.jpg)
 
@@ -96,7 +96,7 @@ Once you reach the "Install Ubuntu" or "Try Ubuntu" take your pick. I would reco
 These options provide you with some customization as to how your Ubuntu OS will work. This includes having additional programs already installed when the installation completes and having proprietary software available.
 
 ### Interactive Installation
-For most using not scaling Ubuntu installation, go with the **Interactive Installation**. The other option is more for commercial use or having more than a few computers.
+For most of us who are not scaling Ubuntu installation, go with the **Interactive Installation**. The other option is more for commercial use or having more than just a few computers.
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/interactive_installation.png)
 
@@ -111,7 +111,7 @@ It is recommended to check both boxes to allow for certain drivers, such as for 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/ubuntu_proprietary_soft.png)
 
 ### Erase or Dual Boot
-For many people, the next step would be simple as we choose whether to erase the disk and install Ubuntu (removing whatever OS you previously had, so likely Windows) or manually choose where to install it. Erasing the disk is easiest, but advanced users can have the option to dual-boot to have both Ubuntu and the original OS or manually partition the space. For my purposes so far, I was mostly replacing Windows 7 and a Windows 8 machines, so I did not care for keeping Windows.
+For many people, the next step would be simple as we choose whether to erase the disk and install Ubuntu (removing whatever OS you previously had, so likely Windows) or manually choose where to install it. Erasing the disk is easiest, but advanced users can have the option to dual-boot to have both Ubuntu and the original OS or manually partition the space. For my purposes so far, I was mostly replacing Windows 7 and Windows 8 machines, so I did not care for keeping Windows.
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/ubuntu_erase_disk.png)
 
@@ -136,10 +136,14 @@ Go through the options and choose what you prefer for each of the prompts. Once 
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/review_and_install.png)
 
+Be aware it might take a while for Ubuntu to install, especially if you have a Hard Disk Drive (HDD).
+
 ### You installed Linux!
-Now that Ubuntu is officially installed, make sure to complete and updates that may be needed. And, of course, make it your own! One of the first things I did was make a picture of my wife and I as my background. The other was move the app dock from the side to the bottom of the screen. I am still not sure if I like it on the bottom or side more, though.
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/installed.png)
+
+Now that Ubuntu is officially installed, make sure to complete any updates that may be needed. And, of course, make it your own! One of the first things I did was change the background to a picture of my wife and me. The other was move the app dock from the side to the bottom of the screen. I am still not sure if I like it on the bottom or side more, though.
+
 
 ---
 ---
@@ -148,11 +152,11 @@ Now that Ubuntu is officially installed, make sure to complete and updates that 
 *Did you try turning it off and back on again?*
 
 ### Computers are complicated
-As with any complex system, things can go wrong. Computers are both complex and varied, so you may see an issue that I never heard of. As I said towards the beginning, it is best to check the [Ubuntu official guide](https://ubuntu.com/tutorials/install-ubuntu-desktop) for additional details, and that includes errors, bugs, and general troubleshooting. If the solution is not there, then feel free to look up your specific issue online. With some searching and troubleshooting myself, I found workarounds for both issues I faced in my initial installation.
+As with any complex system, things can go wrong. Computers are both complex and varied, so you may see an issue that I never heard of. As I said towards the beginning, it is best to check the [Ubuntu official guide](https://ubuntu.com/tutorials/install-ubuntu-desktop) for additional details, and that includes errors, bugs, and general troubleshooting. If the solution is not there, then feel free to look up your specific issue online. With some searching and troubleshooting myself, I found workarounds for both issues I faced in my initial installations.
 
 ### Issues I faced
 Speaking of my issues, here is what I experienced and had to figure out:
-1. My very first installation of Ubuntu was on a old Sony Vaio laptop running Windows 8.1 gifted to me by my father-in-law. It became quite an adventure when the option to erase the old OS was never an option. The installation skipped that step and directly went to have me manually partition drives. I had no idea what the drives meant and, even with some research, I was not able to change any from that menu or even from within Windows. Eventually, what worked was I partitioned space from within the "Try Ubuntu" system. Then, it worked.
+1. My very first installation of Ubuntu was on a old Sony Vaio laptop running Windows 8.1 gifted to me by my father-in-law. It became quite an adventure when the option to erase the old OS was never an option. The installation skipped that step and directly went to have me manually partition drives. I had no idea what the drives meant and, even with some research, I was not able to change any from that menu or even from within Windows. Eventually, what worked was I partitioned space from within the "Try Ubuntu" system. Now, that computer is my daily driver. I even am using it to write this post.
 
 2. Now the second was a doozy. Apparently, certain HP Pavilion laptops have issues booting from USB. So, I had to get a DVD that would fit an Ubuntu ISO on it and use that to boot and install. For your reference, it took a long time.
 
@@ -163,13 +167,13 @@ In the main guide provided by Ubuntu, they also have a few issues mentioned. For
 
 2. TPM-backed full disk encryption is a new, highly experimental feature. So it's probably best to wait and not mess with it just yet.
 
-3. If you select LVM or ZFS based encryption, you will have to make an encryption key. Don't lose your encryption key. It would be sad if you lost your data because you lost your key.
+3. If you select LVM or ZFS based encryption, you will have to make an encryption key. Don't lose your encryption key. That would be sad.
 
 4. Windows Bitlocker should be disabled if you are dual-booting your computer.
 
 ## Now What?
 Install Ubuntu yourself if you have not already! You have the steps and, hopefully, the confidence. I believe in you!
 
-You can also try other distros, like Mint or Pop!_OS. Find the best fit for you, as there are plenty for every preference.
+You can also try other distros, like Mint or Pop!_OS. Find the best fit for you, as there are plenty out there for your specific needs.
 
 Tell me what you enjoyed, what went wrong, or maybe your favorite operating system. If it is Windows XP, then extra respect! Just, please do not connect any Windows XP device to the internet. Thats like jumping in a lake of pirhanas with a steak.
