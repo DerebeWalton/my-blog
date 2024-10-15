@@ -4,7 +4,7 @@ title:  "Linux: Not as Scary as You Think"
 description: Guide for installing Ubuntu on Windows devices
 image: /assets/img/setupcomplete.jpg
 ---
-<p class="intro"><span class="dropcap">L</span>inux! Did I scare you? For many, the idea of using, much less installing, any linux distribution sounds both daunting and potentially dangerous. This guide will hopefully ease you in and help you along so you too can enjoy the lack of bloatware that is Ubuntu. </p>
+<p class="intro"><span class="dropcap">L</span>inux! Did I scare you? For many, the idea of using, much less installing, any linux distribution sounds both daunting and potentially dangerous. This guide will hopefully ease you in and help you along so you too can enjoy the efficiency that is Ubuntu. </p>
 
 ## Why Linux?
 
@@ -12,7 +12,7 @@ Now, you may be thinking, "Why would I even want to install Linux?" There are ma
 
 1. Microsoft is killing Windows 10 on October 14, 2025. Now this does not mean your computer will suddenly stop working, but it does mean it will be vulnerable to potential malware. For many, we would love to upgrade to Windows 11, but our computers simply do not have the ability to run it.
 
-2. Ubuntu (and most Linux distros) are much less bloated than Windows, and even some Apple products. 
+2. Ubuntu and most Linux distros (distributions) are much less bloated and resource heavy than Windows, and even some Apple products. 
 
 3. Most Linux distros are free and open source!
 
@@ -174,6 +174,6 @@ In the main guide provided by Ubuntu, they also have a few issues mentioned. For
 ## Now What?
 Install Ubuntu yourself if you have not already! You have the steps and, hopefully, the confidence. I believe in you!
 
-You can also try other distros, like Mint or Pop!_OS. Find the best fit for you, as there are plenty out there for your specific needs.
+You can also try other Linux distros, like Mint or Pop!_OS. Find the best fit for you, as there are plenty out there for your specific needs.
 
 Tell me what you enjoyed, what went wrong, or maybe your favorite operating system. If it is Windows XP, then extra respect! Just, please do not connect any Windows XP device to the internet. Thats like jumping in a lake of pirhanas with a steak.
