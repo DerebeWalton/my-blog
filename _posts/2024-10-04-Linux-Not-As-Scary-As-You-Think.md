@@ -18,10 +18,10 @@ Now, you may be thinking, "Why would I even want to install Linux?" There are ma
 
 4. It feels very similar to, and even can be customized to act just like, Windows and MacOS.
 
-5. It is sad to let a good computer go to waste, so give new life to an old computer with a safe, secure, and simple operating system
+5. It is sad to let a good computer go to waste, so give new life to an old computer with a safe, secure, and simple operating system.
 
 For those who are afraid of potentially messing up your computer, no need to worry. Linux is safe, and relatively easy to install. And, although you can lose data if you don't back things up (like with any system), you are unlikely to break your computer by replacing the operating system. 
-*That being said, I must clarify this now: I am not responsible for any problems, issues, damage, stress, or other negativity that may occur during this process. I am providing my best understanding to help provide both options and joy in Linux*
+*That being said, I must clarify this now: I am not responsible for any problems, issues, damage, stress, or other negativity that may occur during this process. I am providing my best understanding to help provide both options and joy in Linux.*
 
 ---
 ---
