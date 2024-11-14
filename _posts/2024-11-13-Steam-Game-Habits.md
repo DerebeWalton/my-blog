@@ -53,7 +53,7 @@ Now we get to the fun stuff. The Data itself!
 | Average Hours Played for all Games    | 0.9       |
 | Total Hours Play Since Account Created| 1757.75   | 
 
-For reference, that last number of 1757.75 hours equates to about 73 days, which is about 2.44 months. So, I potentially have wasted 2 months for 24 hours per day on video games. For a full time job, that 219 8 hour days. This is starting to shame me a little too much, so let's move on. 
+For reference, that last number of 1757.75 hours equates to about 73 full days, which is about 2.44 months. This is starting to shame me a little too much, so let's move on. 
 
 ## Some Good Ol' Graphs
 Now that we have some basic understanding of how much life I have spent on video games, we can explore a few more details on the games themselves.
@@ -86,13 +86,11 @@ While those might be my top games of all time, what about recently? As of today,
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/steam_2weeks.png)
 
-See, I don't *only* play Star Wars games. I also play Portal. And I may have played a little Star Wars Battlefront again. And for those who are wondering, no I do not have Star Wars: Outlaws yet because I still need to finish Star Wars: Jedi Survivor first. 
+See, I don't *only* play Star Wars games. I also play Portal. And I may have played a little Star Wars Battlefront again.
 
 
 # What Now?
 
 Overall, it looks like I love Star Wars video games, have spent a lot of time playing a lot of games, and still have many games left in my library to play if I ever get around to it.
 
-But this is not the end! There is so much more for us to learn and study. For some more information on using APIs, check out [this page](https://www.dataquest.io/blog/python-api-tutorial/). If you feel like this was interesting and want to learn more about Steam, [here is](https://store.steampowered.com/) their main store page. If you already have a Steam account, check out [my code](https://github.com/DerebeWalton/Steam-Data.git) and try exploring your account.
-
-What data would you want me to explore next?
+But this is not the end! There is so much more for us to learn and study. For some more information on using APIs, check out [this page](https://www.dataquest.io/blog/python-api-tutorial/). If you feel like this was interesting and want to learn more about Steam, [here is](https://store.steampowered.com/) their main store page. If you already have a Steam account, check out [my code](https://github.com/DerebeWalton/Steam-Data.git) and try exploring your account too!
