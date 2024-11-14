@@ -2,7 +2,7 @@
 layout: post
 title:  "Too Many Games, Too Little Time"
 description: Exploring a dataset of Steam games from user Gimotac
-image: /assets/img/Gimotac_Account.png
+image: /assets/img/Gimotac_Account_blur.png
 ---
 <p class="intro"><span class="dropcap">H</span>ow we spend our free time is important. Depending one what we do, it can bring us closer to or farther from our loved ones, increase or decrease our stress, or many other things. For me, I occasionally enjoy relaxing by playing video games on my own and with my wife. Steam is the biggest video game distributor on PC. If you play any PC game besides Minecraft, Fortnite, or Microsoft Solitaire, you likely have Steam installed and at least a few games in your Steam Library. For me, I have over 300 games on Steam and love playing on my Steam Deck that my wife got me for Christmas last year. As we explore my Steam library showing how I spend some of my time, I hope you find this interesting and can reflect on how you spend your free time.</p>
 
