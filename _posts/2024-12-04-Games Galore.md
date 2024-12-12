@@ -20,9 +20,9 @@ Per both our [previous](https://derebewalton.github.io/my-blog/blog/Steam-Game-H
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/all_top_20.png)
 
-We can also look into specific games and see how much of playtime for top performers are more on Windows versus Steam Deck.
+We can also look into specific games and see how much playtime for top performers are on Windows versus on the Steam Deck.
 
-For our number one game in playtime, Star Wars: Battlefront 2 (Classic, 2005), the Steam Deck at 69 minutes is knocked out when compared with the whopping 8,158 minutes on Windows. This drastic contrast is reflected if we look at the pie chart in our [app](https://steam-explore.streamlit.app/). 
+For our number one game in playtime, Star Wars: Battlefront 2 (Classic, 2005), the Steam Deck habing 69 minutes is knocked out when compared with the whopping 8,158 minutes on Windows. This drastic contrast is reflected if we look at the pie chart in our [app](https://steam-explore.streamlit.app/). 
 
 ![Figure]({{site.url}}/{{site.baseurl}}/assets/img/battlefront_pie.png)
 
@@ -32,11 +32,11 @@ But what I do with the app is not nearly as important as what *you* can do with 
 
 As explained above, you can explore this dataset and Streamlit, but you can especially think about how other similar projects can help you learn, grow, and communicate effectively with these tools. As for the data itself, the app allows us to not only look at groups of top performers, but also individuals.
 
-At the most basic level, you can look at the top games by playtime in a bar chart, like we did above. But you can also adjust both how many top performers you want and whether it is measured by all playtime, playtime on Windows, or playtime on the Steam Deck. Additionally, on this an the next tab, you can use a drop-down message to get a little insight about the previous plot.
+At the most basic level, you can look at the top games by playtime in a bar chart, like we did above. But you can also adjust both how many top performers you want and whether it is measured by all playtime, playtime on Windows, or playtime on the Steam Deck. Additionally, on this tab and the next tab, you can use a drop-down message to get a little insight about the nearby plot.
 
-In the next tab, you can explore specific games information. This includes a table with the appid and playtime data as well as a pie chart for at-a-glance understanding. The only key issue here is that it requires the exact title of the game according to Steam, including symbols such as some trademark symbols. To aid you in using a specifc game title name, I also include one final tab with the data itself, so you can just copy and past the name of the game.
+In the next tab, you can explore a specific game's information. This includes a table with the appid and playtime data as well as a pie chart for at-a-glance understanding. The only key issue here is that it requires the exact title of the game according to Steam, including symbols such as some trademark symbols. To aid you in ensurin the specific game title name, I also include one final tab with the data itself, so you can just copy and past the name of the game.
 
-And, of course, the buttons to adjust the number of games for the top results and the box for inputting a game, is in a convenient collapsable sidebar, so you can focus on your plots when really needed. What is really amazing, as I mentioned earlier, is that Streamlit is super easy to use. Here is my code for creating the sidebar:
+And, of course, buttons to adjust the number of games for the top results and the box for inputting a game title is in a convenient collapsable sidebar, so you can focus on your plots when really needed. What is really amazing, as I mentioned earlier, is that Streamlit is super easy to use. Here is my code for creating the sidebar:
 
 {%- highlight python -%}
 with st.sidebar:
