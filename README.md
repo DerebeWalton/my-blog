@@ -1,3 +1,3 @@
-## Another Stat386 Theme
+## Blog
 
-This is another theme choice for your Stat 386 blog. 
+This is a blog started in a data science class during my college career.
